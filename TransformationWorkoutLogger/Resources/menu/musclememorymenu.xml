@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--For all properties see: https://aka.ms/android-menu-resource-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item
+        android:id="@+id/kortney"
+        android:tooltipText="kortney"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="kortney" />
+
+	<item
+        android:id="@+id/levmarie"
+        android:tooltipText="levmarie"
+        android:icon="@drawable/ic_dashboard_black_24dp"
+        android:title="levmarie"/>
+
+	<item
+        android:id="@+id/deblair"
+        android:tooltipText="deblair"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="deblair" />
+  
+</menu>
+
+<!-- Code to implement into Activity:
+
+Android.Widget.SearchView searchView;
+public override bool OnCreateOptionsMenu(IMenu menu)
+{
+  this.MenuInflater.Inflate(Resource.Menu.musclememory, menu);
+
+  var searchItem = menu.FindItem(Resource.Id.action_search);
+
+  searchView = searchItem.ActionProvider.JavaCast<Android.Widget.SearchView>();
+
+  searchView.QueryTextSubmit += (sender, args) =>
+  {
+    Toast.MakeText(this, "You searched: " + args.Query, ToastLength.Short).Show();
+
+  };
+
+
+  return base.OnCreateOptionsMenu(menu);
+}
+
+-->

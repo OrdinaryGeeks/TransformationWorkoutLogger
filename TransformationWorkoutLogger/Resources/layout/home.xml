@@ -1,0 +1,304 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/homeMainPageContent" >
+  
+            <ScrollView
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/homeSideMenuScrollview">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/linearLayout1" >
+         
+
+                <HorizontalScrollView
+                    android:layout_margin="20px"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/horizontalScrollView1" >
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/linearLayout2" >
+
+                <TextView
+                    android:text="@string/muscle_memory_side_menu"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:id="@+id/muscleMemorySide" />
+
+
+                                  <ImageView
+                        android:src="@mipmap/workout2"
+                        android:layout_width="350px"
+                        android:layout_height="350px"
+                        android:id="@+id/imageView1" />
+                            <ImageView
+                                android:src="@mipmap/workout3"
+                                   android:layout_width="350px"
+                        android:layout_height="350px"
+                                android:id="@+id/imageView2" />
+                            <ImageView
+                                android:src="@mipmap/workout4"
+                                     android:layout_width="350px"
+                        android:layout_height="350px"
+                                android:id="@+id/imageView3" />
+
+                    </LinearLayout>
+                    </HorizontalScrollView>
+                <HorizontalScrollView
+                       android:layout_margin="20px"
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/horizontalScrollView2" >
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/linearLayout3" >
+
+             
+
+            
+          
+                <TextView
+                    android:text="@string/wellness_and_health_side_menu"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                     android:layout_gravity="center_vertical"
+                    android:id="@+id/wellnessHealthSide" />
+                        <ImageView
+                            android:src="@mipmap/health"
+                         android:layout_width="350px"
+                        android:layout_height="350px" android:id="@+id/imageView4" />
+                        <ImageView
+                            android:src="@mipmap/health2"
+                           android:layout_width="350px"
+                        android:layout_height="350px"  android:id="@+id/imageView5" />
+                        <ImageView
+                            android:src="@mipmap/health3"
+                           android:layout_width="350px"
+                        android:layout_height="350px" android:id="@+id/imageView6" />
+
+
+
+                    </LinearLayout>
+                    </HorizontalScrollView>
+
+
+                <HorizontalScrollView
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                       android:layout_margin="20px"
+                    android:id="@+id/horizontalScrollView3" >
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/linearLayout4" >
+
+
+                <TextView
+                    android:text="@string/fitness_for_geeks_side_menu"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/fitnessForGeeksSide" />
+                    <TextView
+                        android:text="Logic Puzzle 1"
+                            android:layout_marginLeft="20px"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView1" />
+                        <TextView
+                            android:layout_marginLeft="20px"
+                            android:text="Quote from Einstein"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView2" />
+                        <TextView
+                            android:text="Math Problem"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:id="@+id/textView3" />
+
+                    
+
+                
+                    </LinearLayout>
+                </HorizontalScrollView>
+                <HorizontalScrollView
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/horizontalScrollView4"
+                       android:layout_margin="20px">
+
+
+
+                <TextView
+                    android:text="@string/enter_workout_side_menu"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/workoutSide" />
+
+
+                    </HorizontalScrollView>
+                <HorizontalScrollView
+                    android:minWidth="25px"
+                    android:minHeight="25px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                      android:layout_margin="20px"
+                    android:id="@+id/horizontalScrollView5" >
+
+
+
+
+
+
+                <TextView
+                    android:text="@string/faith_side_menu"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/faithNetSide" />
+
+
+                </HorizontalScrollView>
+
+                  <HorizontalScrollView
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                      android:layout_margin="20px"
+                android:id="@+id/horizontalScrollView6" >
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:minWidth="25px"
+                        android:minHeight="25px"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/linearLayout5" >
+                        <TextView
+                            android:text="Bust A Gut"
+                            android:layout_gravity="center_vertical"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView4" />
+
+
+                        <ImageView
+                            android:src="@android:drawable/ic_menu_gallery"
+                                  android:layout_width="350px"
+                        android:layout_height="350px"  android:id="@+id/imageView7" />
+                        <ImageView
+                            android:src="@android:drawable/ic_menu_gallery"
+                                  android:layout_width="350px"
+                        android:layout_height="350px"  android:id="@+id/imageView8" />
+                        <ImageView
+                            android:src="@android:drawable/ic_menu_gallery"
+                                   android:layout_width="350px"
+                        android:layout_height="350px"  android:id="@+id/imageView9" />
+
+
+
+                    </LinearLayout>
+
+
+
+
+            </HorizontalScrollView>
+
+
+
+                </LinearLayout>
+          
+
+
+
+
+
+
+
+            </ScrollView>
+        <ScrollView
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView1" >
+
+
+        </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="0dp"
+        android:layout_marginStart="0dp"
+        android:background="?android:attr/windowBackground"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/navigation" />
+
+</RelativeLayout>
